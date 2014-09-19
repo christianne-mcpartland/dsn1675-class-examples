@@ -31,32 +31,20 @@ html {
 img {
 	width: 100%;
     display: block;
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #ccc;
 }
 
-.title {
-    color: red;
+.nav li {
+    border-top: 1px solid #666;
 }
 
-@media only screen and (min-width: 400px) {
-    
-    .title {
-        color: green;
-        font-size: 10rem;
-    }
-    
-    
+.nav a {
+    display: block;
+    padding: 0.5em 0.75em;
+    text-decoration: none;
 }
-
-@media only screen and (min-width: 700px) {
-    
-    .title {
-        color: blue;
-    }
-    
-}
-
-
-
-
-
-
